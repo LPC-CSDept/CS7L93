@@ -1,6 +1,4 @@
-
-
-def copyDict(org_dict, keys):
+def deleteDict(org_dict, keys):
     ##################################################
     # Code your program here
     ##################################################
@@ -24,8 +22,8 @@ def main():
 
     printDict(emp_dict)
     keys = ['name', 'salary']
-    new_dict = copyDict(emp_dict, keys)
-    printDict(new_dict)
+    deleteDict(emp_dict, keys)
+    printDict(emp_dict)
 
 
 if __name__ == '__main__':
