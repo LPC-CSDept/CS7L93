@@ -24,7 +24,7 @@ def test_main_1():
         "city": "New York"}
     main.printDict(emp_dict)
     keys = ['name', 'salary']
-    main.deleteDict(emp_dict, keys)
+    main.deleteDictItems(emp_dict, keys)
     main.printDict(emp_dict)
 
     assert len(emp_dict) == 2
@@ -58,7 +58,7 @@ def test_main_2():
         "city": "New York"}
     main.printDict(emp_dict)
     keys = ['name', 'salary', 'nonexist']
-    main.deleteDict(emp_dict, keys)
+    main.deleteDictItems(emp_dict, keys)
     main.printDict(emp_dict)
 
     assert len(emp_dict) == 2

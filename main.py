@@ -1,13 +1,12 @@
-def deleteDict(org_dict, keys):
-    ##################################################
-    # Code your program here
-    ##################################################
+def deleteDictItems(org_dict, keys):
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
 
 
 def printDict(p_dict):
-    ##################################################
-    # Code your program here
-    #########################################
     print('***************')
     for k, v in p_dict.items():
         print(f'{k} : \t {v}')
@@ -22,7 +21,7 @@ def main():
 
     printDict(emp_dict)
     keys = ['name', 'salary']
-    deleteDict(emp_dict, keys)
+    deleteDictItems(emp_dict, keys)
     printDict(emp_dict)
 
 
